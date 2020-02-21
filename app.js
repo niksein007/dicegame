@@ -109,6 +109,14 @@ const reactions = (playerCount,player)=>{
         holdButton.style.visibility = "hidden";
         resetButton.style.visibility = "visible";
         replay.style.visibility = "visible";
+        // let active = document.getElementsByClassName("class");
+        // if (active[0].getAttribute("class") == "") {
+        //     active[0].setAttribute("class","active");
+        // } else if (active[1].getAttribute("class") == "") {
+        //     active[1].setAttribute("class","active");
+        // }{
+            
+        // }
 }
 
 }
@@ -186,9 +194,13 @@ replay.addEventListener("click",()=>{
     count = 0;
     player1Count = 0;
     player2Count = 0;
-    player1.textContent = `${name1.value}'s total count is ${player1Count} `;
-    player2.textContent = `${name2.value}'s total count is ${player2Count} `;
+    player1.textContent = `${name1.value}`;
+    player2.textContent = `${name2.value}`;
+    result.textContent = "Result";
+    resetShowCount();
+    document.getElementsByTagName("img")[0].setAttribute("src", `./img/background.png`);
 })
+
 
 // adds event listener to the reset button
 resetButton.addEventListener("click", () => {
