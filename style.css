@@ -1,0 +1,111 @@
+body {
+  /* background-image:url(./img/original.jpg); */
+  background-color: rgba(122, 211,211, 1);
+
+}
+
+header p {
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-size: xx-large;
+    background-color: rgb(8, 49, 49);
+    border-radius: 10px;
+}
+header p::first-letter{
+    color: sienna;
+    font-size: 100px;
+    font-family: cursive;
+}
+
+
+section#names{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+input{
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+    
+}
+#names button{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+input:focus{
+    background-color: honeydew;
+    color: green;
+}
+
+section#main{
+    display: none;
+}
+#show-count {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#img {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: -200px;
+}
+
+div#buttons {
+    width: 200px;
+    margin: auto;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 25%;
+    outline: none;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+p#result {
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px dashed burlywood;
+    color: whitesmoke;
+    background-color: rosybrown;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    background-color: thistle;
+}
+
+P#player1 {
+    width: 150px;
+    height: 100px;
+    padding-top: 60px;
+}
+
+P#player2 {
+    float: right;
+    margin-top: -185px;
+    width: 150px;
+    height: 100px;
+    padding-top: 60px;
+}
+
+
+.active {
+    background-color: yellowgreen;
+}
