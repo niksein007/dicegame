@@ -1,6 +1,8 @@
 body {
   /* background-image:url(./img/original.jpg); */
   background-color: rgba(122, 211,211, 1);
+  width: 100vw;
+  margin: 0;
 
 }
 
@@ -20,13 +22,13 @@ header p::first-letter{
 
 
 section#names{
-    width: 300px;
+    /* width: 100vw; */
     height: 300px;
     margin: auto;
     text-align: center;
 }
 input{
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     margin-top: 50px;
     border-radius: 25px;
