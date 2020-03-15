@@ -1,0 +1,71 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+
+  header {
+    text-align: center;
+    background-color: rgb(71, 243, 255);
+    margin-top: 50vh;
+    margin-bottom: 10px;
+
+    p {
+      margin-top: 0;
+      padding-top: 10px;
+    }
+
+    button {
+      margin-bottom: 10px;
+    }
+
+    .active {
+      border: 1px solid black;
+    }
+
+    .deactivated {
+      display: none;
+    }
+  }
+
+  .single {
+    display: none;
+  }
+
+  .singlePlayer {
+    text-align: center;
+
+    p {
+      background-color: rgba(0, 0, 139, 0.5);
+      color: white;
+      width: 41.66vw;
+      border: 5px solid rgb(194, 37, 71);
+      margin: auto;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        width: 240px;
+        margin: auto;
+    }
+    button{
+        outline: none;
+        background-color: lightblue;
+        font-size: larger;
+        width: 110px;
+        margin: auto;
+        margin: 10px auto;
+    }
+    button:hover{
+        color: rgb(255, 255, 255);
+    }
+
+    #replay {
+      display: none;
+    }
+  }
+}

@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href='./singleStyle/style.css' />
+    <title>Dice Game</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <p>Welcome... This is a two person Dice Game</p>
+      <p>Welcome to mark's dice game.</p>
+      <button class="singlePlayer">Single Player</button>
+      <a href="./twoPlayers.html"
+        ><button class="twoPlayers">Two Players</button></a
+      >
     </header>
-    <section id="names">
-         <input type="text" placeholder="Player1 Name" id="name1">
-         <input type="text" placeholder="Player2 Name" id="name2">
-        <button id="submit">submit</button>
-    </section>
-    <section id="main">
-        <p id="show-count">The total count is 0</p>
-        <p id="player1" class="active">player1</p>
-        <p id="player2" class="">player2</p>
-        <div id="img">
-            <img src="" alt="">
-        </div>
 
-        <div id="buttons">
-            <button id="button">Roll Dice</button>
-            <button id="hold">Hold</button>
-            <button id="replay">Play again</button>
-            <button id="reset">Reset Game</button>
-        </div>
-        <p id="result">Result</p>
+    <section class="singlePlayer single">
+      <p id="sumOfDice">Total points is 0</p>
+      <p id="store">Total points in store is 0</p>
+      <div id="img">
+        <img src="./img/background.png" alt="bg" />
+      </div>
+      <div class="flex">
+        <button id="rollDice">Roll Dice</button>
+        <button id="hold">Hold</button>
+      </div>
+      <p id="result">Result</p>
+      <div class="flex">
+        <button id="replay">Play again</button>
+        <button id="reset">Reset</button>
+      </div>
     </section>
-    <script src="app.js"></script>
-</body>
 
+    <script src="app1.js"></script>
+  </body>
 </html>

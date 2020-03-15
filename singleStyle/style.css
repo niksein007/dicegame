@@ -1,0 +1,79 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body header {
+  text-align: center;
+  background-color: #47f3ff;
+  margin-top: 50vh;
+  margin-bottom: 10px;
+}
+
+body header p {
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+body header button {
+  margin-bottom: 10px;
+}
+
+body header .active {
+  border: 1px solid black;
+}
+
+body header .deactivated {
+  display: none;
+}
+
+body .single {
+  display: none;
+}
+
+body .singlePlayer {
+  text-align: center;
+}
+
+body .singlePlayer p {
+  background-color: rgba(0, 0, 139, 0.5);
+  color: white;
+  width: 41.66vw;
+  border: 5px solid #c22547;
+  margin: auto;
+}
+
+body .singlePlayer img {
+  width: 150px;
+  height: 150px;
+}
+
+body .singlePlayer .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 240px;
+  margin: auto;
+}
+
+body .singlePlayer button {
+  outline: none;
+  background-color: lightblue;
+  font-size: larger;
+  width: 110px;
+  margin: auto;
+  margin: 10px auto;
+}
+
+body .singlePlayer button:hover {
+  color: white;
+}
+
+body .singlePlayer #replay {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./twoPlayersStyle/style.css" />
+
+    <title>Dice Game</title>
+  </head>
+  <body>
+     <header>
+      <p><span id="welcome">Welcome...</span> This is a two person Dice Game</p>
+    </header>
+      <section id="names">
+        <input type="text" placeholder="Player1 " id="name1" value=""/> <span class="error">*</span>
+        <input type="text" placeholder="Player2" id="name2" value="" /> <span class="error">*</span>
+        <p id="errMsg">please enter a name</p>
+        <button id="submit">submit</button>
+      </section>
+
+      <section id="main">
+        <p id="points">Total points is 0</p>
+        <p id="player1" class="active">player1</p>
+        <p id="player2" class="">player2</p>
+        <div id="img">
+          <img src="./img/background.png" alt="bgdice" />
+        </div>
+
+        <div id="buttonsHolder">
+          <button id="rollDice" class="button">Roll Dice</button>
+          <button id="hold" class="button">Hold Dice</button>
+          <button id="replay" class="button">Play again</button>
+          <button id="reset" class="button">Reset Game</button>
+        </div>
+        <p id="result">Result</p>
+      </section>
+    <script src="app2.js"></script>
+  </body>
+</html>
